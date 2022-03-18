@@ -6,11 +6,12 @@
 | -----------------| --- |
 | Tom Altankhuyag  |     |
 | Hasan Mahtab     |     |
-| Asma Hashmi      |     |
+| Asma Hashmi      | 30093995    |
 | Hesham Elkaliouby|     |
 
 # Introduction
-
+This lab consists of two parts: Mutation Testing and GUI Testing. The first part will allow students to learn about mutation faults in a Java code-base with the mutation testing tool. It will also allow the student to interpret and report mutation scores, which will further allow students to design new test cases to improve the overall test suite quality. 
+Part two will focus on the GUI testing automation. Student will use an extension called Selenium and will use that to test web interfaces and compare. 
 
 # Analysis of 10 Mutants of the Range class 
 
@@ -21,6 +22,8 @@
 # Analysis drawn on the effectiveness of each of the test classes
 
 # A discussion on the effect of equivalent mutants on mutation score accuracy
+
+
 
 # A discussion of what could have been done to improve the mutation score of the test suites
 
