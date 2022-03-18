@@ -47,7 +47,7 @@ After throughly going through each test case, the team decided to go through the
 
 # Explain the use of assertions and checkpoints
 
-Both checkpoints and assertions are automatically generated through the Selenium IDE. The endpoints display a checklist/step-by-step process of how the test case is tested. This ensures that each test case is done in a particular way, and the step and broken down for simplicity sake. Both areas are important as they are responsible to reach the correct output, but also ensuring that this output is reached correctly. This is crucial as there are times that the output is reached, but in the wrong order, which can lead to a failed test. The general idea is that, if the steps were shown to someone else, they should be able to follow the steps easily and generate the same output. 
+Both checkpoints and assertions are automatically generated through the Selenium IDE. The endpoints display a checklist/step-by-step process of how the test case are generated. This ensures that each test case is done in a particular way, and the steps are broken down for simplicity sake. Both areas are important as they are responsible to reach the correct output, but also ensure that this output is reached correctly. This is crucial as there are times that an output is reached, but in the wrong order, which can lead to a failed test. The general idea is, if the steps were shown to someone else, they should be able to follow the steps easily and generate the same output. 
 
 Below are the automated verification steps for each test case:
 
