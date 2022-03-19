@@ -155,10 +155,10 @@ Test 8:
 
 # how did you test each functionality with different test data
 
-Test 7: 
+Test 7 (Walmart): 
 Incorrect Login - This functionality was tested by inputting different sets of incorrect email address and/or password while signing into walmart account.
 
-Test 8:
+Test 8 (Walmart):
 Adding item to cart - This functionality was tested by adding different items from the walmart page into the cart and checking out. For example, few items from the electronics section were added to check the functionality.
 
 
