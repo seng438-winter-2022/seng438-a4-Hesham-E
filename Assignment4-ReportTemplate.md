@@ -157,6 +157,8 @@ Test 8:
 
 We tested functionalities for both bestbuy and walmart. We tried to test a function by inputting both valid and invalid data for each case. For example, while signing in, we inputted a valid account information and then tried with an invalid account email address and password to make sure that the program still behaved accordingly.
 
+We were able to edit the value field in Selenium after the test case was finished recording when executing the test cases. We were able to test different data and guarantee that the test behaved as predicted as a result of this. We opted to construct numerous test cases for various test scenarios, such as signing in with the proper and erroneous usernames, because each feature had distinct outcomes, and we wanted to store both as tests.
+
 We also used different data on some exceptional scenarios. Like, while checking out, a different or invalid number was provided to make sure whether the program behaves accordingly. Moreover, while trying to create an account for both bestbuy and walmart, it requires a user to create a new account with a specific first and last name, email, and password. Because the first and last names are redundant, the email must be genuine, and the password must meet certain criteria in order to be acceptable, these values were changed throughout the test to demonstrate that faulty emails and passwords would prevent a new user from being created. So different test data were used in this case as well.
 
 Below are some more functionalities for Bestbuy and Walmart:
