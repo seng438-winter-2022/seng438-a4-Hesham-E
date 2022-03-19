@@ -153,7 +153,14 @@ Test 8:
 ![Adding](https://user-images.githubusercontent.com/73035150/159103833-1e488016-91e8-4162-b00c-525e25c39f3b.PNG)
 ![Adding-2](https://user-images.githubusercontent.com/73035150/159103840-66430d96-4dd2-4da6-8ff9-9d8315dd7e43.PNG)
 
-# how did you test each functionaity with different test data
+# how did you test each functionality with different test data
+
+Test 7: 
+Incorrect Login - This functionality was tested by inputting different sets of incorrect email address and/or password while signing into walmart account.
+
+Test 8:
+Adding item to cart - This functionality was tested by adding different items from the walmart page into the cart and checking out. For example, few items from the electronics section were added to check the functionality.
+
 
 # Discuss advantages and disadvantages of Selenium vs. Sikulix
 
