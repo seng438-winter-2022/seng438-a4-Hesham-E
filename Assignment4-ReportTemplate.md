@@ -53,6 +53,9 @@ Below are the automated verification steps for each test case:
 
 Test 1:
 
+![Screen Shot 2022-03-18 at 5 54 56 PM](https://user-images.githubusercontent.com/82603082/159097975-68edfb01-8758-4331-a8a1-82eea457e754.png)
+
+![Screen Shot 2022-03-18 at 5 55 23 PM](https://user-images.githubusercontent.com/82603082/159097989-24a02fe5-dfc1-4b14-b523-f49b59d75158.png)
 
 
 Test 2:
