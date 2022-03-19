@@ -189,7 +189,7 @@ Invalid user data was inputted to attempt a successful sign in. The failure of t
 
 Test: Invalid Login attempt
 
-Incorrect user data was entered to test whether the BestBuy page fails to log in an invalid user.
+Incorrect user data was entered to test whether the Walmart page fails to log in an invalid user.
 
 Test: Adding Item to cart
 
