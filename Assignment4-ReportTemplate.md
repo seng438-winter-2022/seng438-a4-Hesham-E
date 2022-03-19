@@ -111,3 +111,6 @@ As for Part 2, there were times that Selenium would freeze up and not allow us t
 In the end, our group invested a lot of time figuring out the errors and resolving. Some lessons learned were how to increase the mutation test coverage and GUI testing using a chrome extension.
 
 # Comments/feedback on the lab itself
+
+This lab was very time-consuming and required a lot of troubleshooting. As well, the instructions for setting up Eclipse for this assignment was very unclear, leading to additional problems. 
+After getting past these problems, we got insight on how mutation testing works and how this is used to further improve test suites.
