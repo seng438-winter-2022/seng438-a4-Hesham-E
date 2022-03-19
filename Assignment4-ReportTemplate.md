@@ -40,6 +40,13 @@ In this mutation, instead of returning the subtraction between lower and upper, 
 
 
 # Report all the statistics and the mutation score for each test class
+Before any additions or updates to our test suites:  
+
+![mutationBefore](/figure/mutationStatsBefore.png)  
+
+After additions and or updates to our test suites:  
+
+![mutationAfter](/figure/mutationStatsAfter.png)  
 
 
 
