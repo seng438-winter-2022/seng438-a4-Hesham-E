@@ -101,4 +101,9 @@ As such, it is clear that Sikulix compared to Selenium is not the best as it req
 
 # Difficulties encountered, challenges overcome, and lessons learned
 
+There were several difficulties encountered during the duration of this lab. Firstly, setting up the Eclipse environment for this lab was very tedious and it led to different errors for each group member. For instance, when trying to upload external jars, some jars were not provided for this lab, making it difficult to run the PIT mutation test as it would display “closed server” each time. This would lead to excessive time being wasted to resolve the problem. When this would happen, we as a group would spend hours trying to figure out why that may be the case. Thankfully, we were able to get it to work on two out of four laptops. As well, many of the group members faced difficulties when running all the methods at once. It worked for some, and didn’t for others. The PIT summary window would sometimes disappear when running the mutation tests, and figuring out how to get that back was difficult. As well, the running of PIT mutations was time consuming and lead to a lot of CPU usage. 
+
+As for Part 2, there were times that Selenium would freeze up and not allow us to record our tests. To resolve this, we would have to quit Selenium and re-launch. Additionally, when playing all the tests recordings on Selenium, sometimes it would not play the recording, so we would have to recreate the entire project once again. 
+In the end, our group invested a lot of time figuring out the errors and resolving. Some lessons learned were how to increase the mutation test coverage and GUI testing using a chrome extension.
+
 # Comments/feedback on the lab itself
