@@ -155,12 +155,24 @@ Test 8:
 
 # how did you test each functionality with different test data
 
-Test 7 (Walmart): 
-Incorrect Login - This functionality was tested by inputting different sets of incorrect email address and/or password while signing into walmart account.
+**Bestbuy**
+Test: Logging Out
+No automated verification points could be created for this test as it required two button clicks that could not be altered, one to select the account, and another to select the log out button.
 
-Test 8 (Walmart):
-Adding item to cart - This functionality was tested by adding different items from the walmart page into the cart and checking out. For example, few items from the electronics section were added to check the functionality.
+Test: Logging In
+Invalid user data was inputted to attempt a successful login. The failure of these tests proved that only a proper email and password match would work.
 
+Test: Invalid Login attempt
+Incorrect user data was entered to test whether the BestBuy page fails to log in an invalid user.
+
+Test: Adding Item to cart
+This test could not have any automated verification points as it simply clicked on an item’s “ADD TO CART” button and proceeded to view the item within the cart.
+
+Test: Checking out
+Different email addresses and user information were inputted to test for validity. Once the test reached the checkout part where a user bank card information was required, the purchase was cancelled.
+
+Test: Search for Item
+The item “Laptop” was looked into via multiple methods, rather than just looking up for the item specifically to prove it’s in its proper location. The test goes through different content pages and item lists until it reaches the proper "Computers and Laptops” page, where it selects a specific laptop for the user to view.
 
 # Discuss advantages and disadvantages of Selenium vs. Sikulix
 
