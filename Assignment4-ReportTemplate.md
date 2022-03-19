@@ -144,8 +144,14 @@ Test 6:
 
 
 Test 7:
+![Incorrect-1](https://user-images.githubusercontent.com/73035150/159103851-084c252b-2ee1-435f-a399-c09f2b1126ad.PNG)
+
+![Incorect-2](https://user-images.githubusercontent.com/73035150/159103852-6b72fe80-fcfc-4c7a-a3a0-08818f813e54.PNG)
+
 
 Test 8:
+![Adding](https://user-images.githubusercontent.com/73035150/159103833-1e488016-91e8-4162-b00c-525e25c39f3b.PNG)
+![Adding-2](https://user-images.githubusercontent.com/73035150/159103840-66430d96-4dd2-4da6-8ff9-9d8315dd7e43.PNG)
 
 # how did you test each functionaity with different test data
 
