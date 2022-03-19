@@ -4,10 +4,10 @@
 
 | Group \#:  12    |     |
 | -----------------| --- |
-| Tom Altankhuyag  |     |
+| Tom Altankhuyag  |  30100861   |
 | Hasan Mahtab     |     |
 | Asma Hashmi      | 30093995    |
-| Hesham Elkaliouby|     |
+| Hesham Elkaliouby|  30089907   |
 
 # Introduction
 This lab consists of two parts: Mutation Testing and GUI Testing. The first part will allow students to learn about mutation faults in a Java code-base with the mutation testing tool. It will also allow the student to interpret and report mutation scores, which will further allow students to design new test cases to improve the overall test suite quality. 
