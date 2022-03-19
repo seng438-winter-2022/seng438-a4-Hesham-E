@@ -116,7 +116,9 @@ As such, it is clear that Sikulix compared to Selenium is not the best as it req
 
 # How the team work/effort was divided and managed
 
+For part 1, we split off our group into pairs. One pair worked on the mutation testing for DataUtilities, while the other group worked on Range class. Within each pair, one person would work on mutants that survived and the other would identify a killed mutant. Eventually, both pairs would come together and check over each others tests, and make changes if needed. 
 
+As for part 2, each group member took on 2 functionalities each and informed the group of what they have decided on. After all the tests were completed, it was looked over by the others. This helped keep everything consistent.
 
 # Difficulties encountered, challenges overcome, and lessons learned
 
