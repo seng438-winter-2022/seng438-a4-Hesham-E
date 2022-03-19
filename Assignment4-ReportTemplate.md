@@ -155,13 +155,13 @@ Test 8:
 
 # how did you test each functionality with different test data
 
-We tested functionalities for both bestbuy and walmart. We tried to test a function by inputting both valid and invalid data. For example, while signing in, we inputted a valid account information and at then tried with an inavlid account emaila address and password to make sure that the program still behaved accordingly.
+We tested functionalities for both bestbuy and walmart. We tried to test a function by inputting both valid and invalid data for each case. For example, while signing in, we inputted a valid account information and then tried with an invalid account email address and password to make sure that the program still behaved accordingly.
 
 We also used different data on some exceptional scenarios. Like, while checking out, a different or invalid number was provided to make sure whether the program behaves accordingly.
 
 Moreover, while trying to create an account for both bestbuy and walmart, it requires a user to create a new account with a specific first and last name, email, and password. Because the first and last names are redundant, the email must be genuine, and the password must meet certain criteria in order to be acceptable, these values were changed throughout the test to demonstrate that faulty emails and passwords would prevent a new user from being created. So different test data were used in this case as well.
 
-Below are some more functionalities:
+Below are some more functionalities for Bestbuy and Walmart:
 
 **Bestbuy**
 
