@@ -101,8 +101,8 @@ The testing process for part 2 began on walmart.ca and bestbuy.ca, where the gro
 4. Searching for a specific item, ie.lawn chair (Walmart)
 5. Using the search feature to check if searching "computer" will display computers and laptops (Bestbuy)
 6. Using the category feature to guide through the website and find the graphics card section (Bestbuy)
-7. …
-8. …
+7. Trying to sign in with an incorrect email address and password. (Walmart)
+8. Trying to add an item to cart. (Walmart)
 
 After throughly going through each test case, the team decided to go through the weaker test cases and replace them for efficiency. Through this, the team was able to create 8 strong test cases, 2 for each member, which covered different areas of the site.
 
