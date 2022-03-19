@@ -36,6 +36,10 @@ For DataUtilites, the test cases seemed to already be quite effective since we s
 # A discussion on the effect of equivalent mutants on mutation score accuracy
 The presence of equivalent mutants makes the performance of the test suite seem lower than it actually is. For example, an extremly common equivalent mutant was changing the looping condition on a for loop to be != rather than <. In a loop where the variable is incrementing with each run, the two guard conditions are the same because they become not true on the same run. However, having equivalent mutatnts might be illuminating to testers since they show what behavior is not allowed in future code changes. Going back to the example of the loop, if the < changed to a != on a decrementating loop, a null exception would occur since certain values would be out of range.
 
+Detection of equivalent mutants may not be simple. In order to do this, a tester must develop a test case that still can pass but uncover the equivalent mutatnts. Going back to the example of changing < to != in an incrementing loop, a tester can design a case where the loop may skip over the guard condition if it does multiple steps at once. For example, if there is a threaded loop, one thread may make it seem that multiple steps are done at once when another thread checks the condition because it was waiting on a mutex somewhere. Thus, if the < is changed with !=, the loop will still run unintentionally which is detectable by a test case.
+
+Annother example  but from DataUtilites this time could be creating expectations using mocks. For example, in calculateRowTotal() columnCount is modifiable by the tested by setting an expectation for the return value of data.getColumnCount(). Thus, if the < on line 178 is changed to != then there will be two different behaviors created depending on the presence of each one. For example, setting columnCount to be less than 0 will result in the loop running infintitely and timing out.
+
 # A discussion of what could have been done to improve the mutation score of the test suites
 To get increased mutant coverage, we analyzed the mutants side by side with the source code to see how it changed. Then, we created test cases to directly address the mutants, where possible. For example, a really common mutant was incrementaing numbers by one or decrementing them by one. In this context, we created test cases that would have the expecting value be outside that range of +-1. 
 
@@ -122,3 +126,6 @@ As for Part 2, there were times that Selenium would freeze up and not allow us t
 In the end, our group invested a lot of time figuring out the errors and resolving. Some lessons learned were how to increase the mutation test coverage and GUI testing using a chrome extension.
 
 # Comments/feedback on the lab itself
+
+This lab was very time-consuming and required a lot of troubleshooting. As well, the instructions for setting up Eclipse for this assignment was very unclear, leading to additional problems. 
+After getting past these problems, we got insight on how mutation testing works and how this is used to further improve test suites.
