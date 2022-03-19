@@ -155,6 +155,10 @@ Test 8:
 
 # how did you test each functionality with different test data
 
+We tested functionalities for both bestbuy and walmart. We tried to test a function by inputting both valid and invalid data. For example, while signing in, we inputted a valid account information and at then tried with an inavlid account emaila address and password to make sure that the program still behaved accordingly.
+
+We also used different data on some exceptional scenarios. Like, while checking out, a different or invalid number was provided to make sure whether the program behaves accordingly. 
+
 **Bestbuy**
 
 Test: Logging Out
@@ -175,7 +179,7 @@ This test could not have any automated verification points as it simply clicked 
 
 Test: Checking out
 
-Different email addresses and user information were inputted to test for validity. Once the test reached the checkout part where a user bank card information was required, the purchase was cancelled.
+Different email addresses, contact information and user information were inputted to test for validity. Once the test reached the checkout part where a user bank card information was required, the purchase was cancelled.
 
 Test: Search for Item
 
@@ -197,7 +201,7 @@ This test could not have any automated verification points as it simply clicked 
 
 Test: Checking out
 
-Different email addresses and user information were inputted to test for validity. Once the test reached the checkout part where a user bank card information was required, the purchase was cancelled.
+Different email addresses, contact information and user information were inputted to test for validity. Once the test reached the checkout part where a user bank card information was required, the purchase was cancelled.
 
 Test: Search for Item
 
