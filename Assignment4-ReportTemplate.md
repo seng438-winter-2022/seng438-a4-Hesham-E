@@ -20,14 +20,18 @@ Part two will focus on the GUI testing automation. Student will use an extension
 
 
 # Analysis drawn on the effectiveness of each of the test classes
+For DataUtilites, the test cases seemed to already be quite effective since we started with a mutation coverage score of 83%. We created additional test cases to increase our mutation score to 85%, but it seems that the mutatnts that are left are either equivalent mutants or mutants that are protected by guard conditions that conventional test cases cannot reach. For example, some of the mutants removed a guard condition from the functions that disallows null parameters. We cannot test this with a conventional test case since null parameters are normally not allowed and PIT Test does not run with JUnit test cases that fail.
 
 # A discussion on the effect of equivalent mutants on mutation score accuracy
-
-
+The presence of equivalent mutants makes the performance of the test suite seem lower than it actually is. For example, an extremly common equivalent mutant was changing the looping condition on a for loop to be != rather than <. In a loop where the variable is incrementing with each run, the two guard conditions are the same because they become not true on the same run. However, having equivalent mutatnts might be illuminating to testers since they show what behavior is not allowed in future code changes. Going back to the example of the loop, if the < changed to a != on a decrementating loop, a null exception would occur since certain values would be out of range.
 
 # A discussion of what could have been done to improve the mutation score of the test suites
+To get increased mutant coverage, we analyzed the mutants side by side with the source code to see how it changed. Then, we created test cases to directly address the mutants, where possible. For example, a really common mutant was incrementaing numbers by one or decrementing them by one. In this context, we created test cases that would have the expecting value be outside that range of +-1. 
 
 # Why do we need mutation testing? Advantages and disadvantages of mutation testing
+Mutation testing provides advantages where it changes source code to illuminate edge cases that the testers that may have not thought about. For example, changing conditions to be somewhat similar could bring forth edge cases testers may not have thought of like changing a guard condition that is used for iterating the array to be one more would result in a boundary error. This boundary error should be accounted for in user programs in order to be able to recover from faults where a user may use an array that is abnormally large or abnormally small. We feel this is the reason that we need mutation testing because it shows cases that are really close to the source code, but could cause faults or errors during runtime that may not be recoverable.
+
+A disadvantage of mutation testing is when it changes source code in a way that cannot be tested as outlined above. Equivalent and unreachable mutants cannot be conventially tested due to the nature of the tools as mentioned. This creates the impression that the test suite is not as effective as it should be, and when there are other people working on a team, it may seem that the testers are not doing their job properly.
 
 # Explain your SELENUIM test case design process
 
