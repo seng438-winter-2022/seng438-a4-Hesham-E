@@ -181,6 +181,28 @@ Test: Search for Item
 
 The item “Laptop” was looked into via multiple methods, rather than just looking up for the item specifically to prove it’s in its proper location. The test goes through different content pages and item lists until it reaches the proper "Computers and Laptops” page, where it selects a specific laptop for the user to view.
 
+**Walmart**
+
+Test: Signing In
+
+Invalid user data was inputted to attempt a successful sign in. The failure of these tests proved that only a proper email and password match would work.
+
+Test: Invalid Login attempt
+
+Incorrect user data was entered to test whether the BestBuy page fails to log in an invalid user.
+
+Test: Adding Item to cart
+
+This test could not have any automated verification points as it simply clicked on an item’s “ADD TO CART” button and proceeded to view the item within the cart.
+
+Test: Checking out
+
+Different email addresses and user information were inputted to test for validity. Once the test reached the checkout part where a user bank card information was required, the purchase was cancelled.
+
+Test: Search for Item
+
+The item “Trimmer” was looked into via multiple methods, rather than just looking up for the item specifically to prove it’s in its proper location. The test goes through different content pages and item lists until it reaches the proper "Health & Beauty” page, where it selects a specific trimmer for the user to view.
+
 # Discuss advantages and disadvantages of Selenium vs. Sikulix
 
 There are a couple of advantages and disadvantages for both Selenium and Sikulix:
