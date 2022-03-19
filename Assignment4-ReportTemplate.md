@@ -14,6 +14,17 @@ This lab consists of two parts: Mutation Testing and GUI Testing. The first part
 Part two will focus on the GUI testing automation. Student will use an extension called Selenium and will use that to test web interfaces and compare. 
 
 # Analysis of 10 Mutants of the Range class 
+Inside ```Range``` class, we can look into the method getLength() and see that there were 19 mutations occured.  
+
+Source code for getLength:  
+![getLength](/figure/getLengthCode.PNG)  
+
+Overview of all mutants:  
+![mutantOverview](/figure/getLengthALLMutants.PNG)  
+
+Mutant 1:  
+![mutant1](/figure/mutant1.PNG)  
+In this mutation, instead of subtraction, addition is made. Since in our test cases, the expected value does not match the real result from the mutant, so the mutant is killed.
 
 # Report all the statistics and the mutation score for each test class
 
