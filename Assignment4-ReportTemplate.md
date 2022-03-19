@@ -5,7 +5,7 @@
 | Group \#:  12    |     |
 | -----------------| --- |
 | Tom Altankhuyag  |  30100861   |
-| Hasan Mahtab     |     |
+| Hasan Mahtab     |  30102185
 | Asma Hashmi      | 30093995    |
 | Hesham Elkaliouby|  30089907   |
 
