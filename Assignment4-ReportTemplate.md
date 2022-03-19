@@ -89,7 +89,14 @@ Test 8:
 
 # Discuss advantages and disadvantages of Selenium vs. Sikulix
 
+There are a couple of advantages and disadvantages for both Selenium and Sikulix:
+For Selenium, it uses a set of tools to automate testing of Web Applications. The user locators (id, classname, etc.) from HTML code are used to automate testing of Web Page Applications. Selenium uses regression testing, and it allows us to create an automation framework using testNG for reporting. Lastly, it supports all browsers and cannot automate desktop applications.
+As for Sikulix, it uses tools to automate based on the GUI. It uses image recognition techniques internally and it requires images to be stored for image recognition. Lastly, it might react differently if an imaged saved matches more than one object on the screen.
+
+As such, it is clear that Sikulix compared to Selenium is not the best as it requires image storage to be used for image recognition within a web page. Also, it is not the best with reading texts compared to Seleniums' HTML operation. Lastly, Sikulix is far less applicable compare to Selenium as it uses RPA instead of HTML/XML
+
 # How the team work/effort was divided and managed
+
 
 
 # Difficulties encountered, challenges overcome, and lessons learned
