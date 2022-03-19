@@ -26,18 +26,41 @@ Mutant 1:
 ![mutant1](/figure/mutant1.PNG)  
 In this mutation, instead of subtraction, addition is made. Since in our test cases, the expected value does not match the real result from the mutant, so the mutant is killed.  
 
+Mutant 2:
 ![mutant2](/figure/mutant2.PNG)  
 In this mutation, the method is changed so the returning value is 0 (0.0d). This mutation is killed since the expected value in our test case is the subtraction between upper and lower boundary values.  
 
+Mutant 4:
 ![mutant3](/figure/mutant3.PNG)  
 In this mutation, the upper boundary value is negated. Since the test case is expecting the subtraction between upper and lower instead of one the upper boundary values. Hence, the mutant is killed off.  
 
+Mutant 5:
 ![mutant4](/figure/mutant4.PNG)  
 In this mutation, the lower boundary value is negated. Since the test case is expecting the subtraction between upper and lower instead of one the lower boundary value. Hence, the mutant is killed off.  
 
+Mutant 6:
 ![mutant5](/figure/mutant5.PNG)  
 In this mutation, instead of returning the subtraction between lower and upper, the first member (in this case upper boundary value) is returned. Since the test case is expecting the subtraction between upper and lower boundary values, the mutant is killed.  
 
+Mutant 9:
+![mutant9](/figure/mutant9.PNG)  
+In this mutation, instead of subtraction the two numbers, they are multiplied. This results in a different value than would have beene expected in the test class. Thus, the mutant is killed.
+
+Mutant 10:
+![mutant10](/figure/mutant10.PNG)  
+In this mutation, instead of subtraction the two numbers, they are divided. This results in a different value than would have beene expected in the test class. Thus, the mutant is killed.
+
+Mutant 11:
+![mutant11](/figure/mutant11.PNG)  
+In this mutation, instead of subtraction the two numbers, they are undergo a modulus operation. This results in a different value than would have beene expected in the test class. Thus, the mutant is killed.
+
+Mutant 12:
+![mutant12](/figure/mutant12.PNG)  
+In this mutation, this.upper is incremented. This mutation is killed becaues the resulting value of the subtraction is 1 more than it should be.
+
+Mutant 13:
+![mutant13](/figure/mutant13.PNG)  
+In this mutation, this.lower is incremented. This mutation is killed becaues the resulting value of the subtraction is 1 less than it should be.
 
 # Report all the statistics and the mutation score for each test class
 
@@ -59,7 +82,7 @@ To get increased mutant coverage, we analyzed the mutants side by side with the 
 # Why do we need mutation testing? Advantages and disadvantages of mutation testing
 Mutation testing provides advantages where it changes source code to illuminate edge cases that the testers that may have not thought about. For example, changing conditions to be somewhat similar could bring forth edge cases testers may not have thought of like changing a guard condition that is used for iterating the array to be one more would result in a boundary error. This boundary error should be accounted for in user programs in order to be able to recover from faults where a user may use an array that is abnormally large or abnormally small. We feel this is the reason that we need mutation testing because it shows cases that are really close to the source code, but could cause faults or errors during runtime that may not be recoverable.
 
-A disadvantage of mutation testing is when it changes source code in a way that cannot be tested as outlined above. Equivalent and unreachable mutants cannot be conventially tested due to the nature of the tools as mentioned. This creates the impression that the test suite is not as effective as it should be, and when there are other people working on a team, it may seem that the testers are not doing their job properly.
+A disadvantage of mutation testing is when it changes source code in a way that cannot be tested as outlined above. Equivalent and unreachable mutants cannot be conventially tested due to the nature of the tools as mentioned. This creates the impression that the test suite is not as effective as it should be, and when there are other people working on a team, it may seem that the testers are not doing their job properly. Additionally, another disadvantge is that mutants can appear twice. For example, in the analysis of 10 mutants, mutant 1 and mutant 8 are the same. This create more or less confidence in the test suite then there actually should be if the duplicates are killed or not. 
 
 # Explain your SELENUIM test case design process
 
