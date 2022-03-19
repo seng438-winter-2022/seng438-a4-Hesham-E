@@ -24,7 +24,20 @@ Overview of all mutants:
 
 Mutant 1:  
 ![mutant1](/figure/mutant1.PNG)  
-In this mutation, instead of subtraction, addition is made. Since in our test cases, the expected value does not match the real result from the mutant, so the mutant is killed.
+In this mutation, instead of subtraction, addition is made. Since in our test cases, the expected value does not match the real result from the mutant, so the mutant is killed.  
+
+![mutant2](/figure/mutant2.PNG)  
+In this mutation, the method is changed so the returning value is 0 (0.0d). This mutation is killed since the expected value in our test case is the subtraction between upper and lower boundary values.  
+
+![mutant3](/figure/mutant3.PNG)  
+In this mutation, the upper boundary value is negated. Since the test case is expecting the subtraction between upper and lower instead of one the upper boundary values. Hence, the mutant is killed off.  
+
+![mutant4](/figure/mutant4.PNG)  
+In this mutation, the lower boundary value is negated. Since the test case is expecting the subtraction between upper and lower instead of one the lower boundary value. Hence, the mutant is killed off.  
+
+![mutant5](/figure/mutant5.PNG)  
+In this mutation, instead of returning the subtraction between lower and upper, the first member (in this case upper boundary value) is returned. Since the test case is expecting the subtraction between upper and lower boundary values, the mutant is killed.  
+
 
 # Report all the statistics and the mutation score for each test class
 
