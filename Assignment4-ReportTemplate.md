@@ -26,39 +26,39 @@ Mutant 1:
 ![mutant1](/figure/mutant1.PNG)  
 In this mutation, instead of subtraction, addition is made. Since in our test cases, the expected value does not match the real result from the mutant, so the mutant is killed.  
 
-Mutant 2:
+Mutant 2:  
 ![mutant2](/figure/mutant2.PNG)  
 In this mutation, the method is changed so the returning value is 0 (0.0d). This mutation is killed since the expected value in our test case is the subtraction between upper and lower boundary values.  
 
-Mutant 4:
+Mutant 4:  
 ![mutant3](/figure/mutant3.PNG)  
 In this mutation, the upper boundary value is negated. Since the test case is expecting the subtraction between upper and lower instead of one the upper boundary values. Hence, the mutant is killed off.  
 
-Mutant 5:
+Mutant 5:  
 ![mutant4](/figure/mutant4.PNG)  
 In this mutation, the lower boundary value is negated. Since the test case is expecting the subtraction between upper and lower instead of one the lower boundary value. Hence, the mutant is killed off.  
 
-Mutant 6:
+Mutant 6:  
 ![mutant5](/figure/mutant5.PNG)  
 In this mutation, instead of returning the subtraction between lower and upper, the first member (in this case upper boundary value) is returned. Since the test case is expecting the subtraction between upper and lower boundary values, the mutant is killed.  
 
-Mutant 9:
+Mutant 9:  
 ![mutant9](/figure/mutant9.PNG)  
 In this mutation, instead of subtraction the two numbers, they are multiplied. This results in a different value than would have beene expected in the test class. Thus, the mutant is killed.
 
-Mutant 10:
+Mutant 10:  
 ![mutant10](/figure/mutant10.PNG)  
 In this mutation, instead of subtraction the two numbers, they are divided. This results in a different value than would have beene expected in the test class. Thus, the mutant is killed.
 
-Mutant 11:
+Mutant 11:  
 ![mutant11](/figure/mutant11.PNG)  
 In this mutation, instead of subtraction the two numbers, they are undergo a modulus operation. This results in a different value than would have beene expected in the test class. Thus, the mutant is killed.
 
-Mutant 12:
+Mutant 12:  
 ![mutant12](/figure/mutant12.PNG)  
 In this mutation, this.upper is incremented. This mutation is killed becaues the resulting value of the subtraction is 1 more than it should be.
 
-Mutant 13:
+Mutant 13:  
 ![mutant13](/figure/mutant13.PNG)  
 In this mutation, this.lower is incremented. This mutation is killed becaues the resulting value of the subtraction is 1 less than it should be.
 
